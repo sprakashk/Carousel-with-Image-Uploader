@@ -1,0 +1,50 @@
+.carousel-container {
+  width: 600px;
+  height: 400px;
+  background: #cfcfcf;
+  box-sizing: content-box;
+  border: 2px solid #6b9b37;
+  position: relative;
+}
+.image-container {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  overflow: hidden;
+}
+.image-container div {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container div img {
+  width: 600px;
+  height: auto;
+  cursor: zoom-in;
+}
+.left-button,
+.right-button {
+  width: 40px;
+  height: 100%;
+  cursor: pointer;
+  color: #fff;
+  background-color: #9ccc657a;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.left-button:hover,
+.right-button:hover {
+  background-color: #9ccc65;
+}
+.right-button {
+  right: 0;
+}
+.left-button {
+  left: 0;
+}

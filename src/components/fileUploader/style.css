@@ -1,0 +1,17 @@
+.fu-container {
+  height: 100px;
+  width: 600px;
+  margin-top: 10px;
+  background: #badd94;
+  border: 2px solid #6b9b37;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fu-container button {
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
